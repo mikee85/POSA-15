@@ -36,7 +36,7 @@ public class DownloadImageActivity extends Activity {
         // contains the path to the image file, and set this as the
         // result of the Activity.
 
-        // @@ TODO -- you fill in here using the Android "HaMeR"
+        // @@ doneTODO -- you fill in here using the Android "HaMeR"
         // concurrency framework.  Note that the finish() method
         // should be called in the UI thread, whereas the other
         // methods should be called in the background thread.

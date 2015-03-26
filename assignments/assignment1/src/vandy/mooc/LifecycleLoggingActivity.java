@@ -56,7 +56,6 @@ public abstract class LifecycleLoggingActivity extends Activity {
     protected void onStart() {
         // Always call super class for necessary
         // initialization/implementation.
-        // doneTODO - you fill in here.
     	super.onStart();
     	Log.d(TAG, "onStart()");
     }
@@ -75,7 +74,6 @@ public abstract class LifecycleLoggingActivity extends Activity {
         // Always call super class for necessary
         // initialization/implementation and then log which lifecycle
         // hook method is being called.
-        // doneTODO - you fill in here.
     	super.onResume();
     	Log.d(TAG, "onResume()");
     }
@@ -93,7 +91,6 @@ public abstract class LifecycleLoggingActivity extends Activity {
         // Always call super class for necessary
         // initialization/implementation and then log which lifecycle
         // hook method is being called.
-        // doneTODO - you fill in here.
     	super.onPause();
     	Log.d(TAG, "onPause()");
     }
@@ -108,7 +105,6 @@ public abstract class LifecycleLoggingActivity extends Activity {
         // Always call super class for necessary
         // initialization/implementation and then log which lifecycle
         // hook method is being called.
-        // doneTODO - you fill in here.
     	super.onStop();
     	Log.d(TAG, "onStop()");
     }
@@ -122,7 +118,6 @@ public abstract class LifecycleLoggingActivity extends Activity {
         // Always call super class for necessary
         // initialization/implementation and then log which lifecycle
         // hook method is being called.
-        // doneTODO - you fill in here.
     	super.onRestart();
     	Log.d(TAG, "onRestart()");
     }
@@ -137,7 +132,6 @@ public abstract class LifecycleLoggingActivity extends Activity {
         // Always call super class for necessary
         // initialization/implementation and then log which lifecycle
         // hook method is being called.
-        // doneTODO - you fill in here.
     	super.onDestroy();
     	Log.d(TAG, "onDestroy()");
     }
